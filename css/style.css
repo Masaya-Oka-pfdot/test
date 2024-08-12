@@ -67,4 +67,10 @@ p{
   input{
     display:block;
   }
+  btn:hover{
+    opacity: 1;
+  }
+  btn:active{
+    opacity: 1;
+  }
 }
