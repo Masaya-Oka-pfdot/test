@@ -3,68 +3,69 @@
   font-family: serif;
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 .back{
-  background-image:url(../background.png);
-  background-size: cover;
+  background-image:url(../spbackground.png);
+  background-size: contain;
   background-repeat: repeat-x;
-  /* height:50%; */
-  padding: 10%;
-  text-align: center;
+  padding: 5%;
+ 
 }
-body{
 
+h1{
+  text-align: center;
+  user-select: all;
+  margin-bottom: 24px;
+  background-color: #817f7f;
 }
+
 section{
   width:90%;
   height:auto;
+  max-width:400px;
   box-shadow: 0px 0px 10px rgb(87, 201, 26) ;
   margin:auto;
   padding:16px;
   border-radius: 10px;
   /* background-color: aqua; */
 }
-
 h2{
   font-weight: normal;
   text-align: center;
-  border: 2px solid #666;
   border-radius:5px;
-  user-select: all;
+
 }
-.blue{
-  margin-top:16px;
+
+.btn{
+  border-radius: 50%;
+  /* margin-top:16px; */
   background-color: rgb(71, 42, 3);
   color:white;
   border-color: rgb(71, 42, 3);
   cursor:pointer;
   user-select: none;
+  border-bottom:5px solid rgb(126, 75, 8)
 }
-.blue:hover{
+.btn:hover{
   opacity:.7;
 }
+.btn:active{
+  opacity:.5;
+  border-bottom:1px solid rgb(126,75,8);
+  margin-top:4px;
+}
 .option{
-  height:fit-content;
-
-  position:relative;
-  width:96%;
-  top:0;
-  border-radius:10px;
-
-}
-
-.tag{
-  position:absolute;
-  top:-30%;
-  left:10%;
-  font-size:20px;
-}
-input{
-  margin:0 5px 0;
+  width:auto;
+  margin-top:10px;
+  color:white
 }
 p{
-  
-  margin:10px 5px;
-  display:flex;
-  justify-content:space-between;
+  background-color: #817f7f;
+  color:darkturquoise;
+}
+@media screen and (max-width:600px){
+  input{
+    display:block;
+  }
 }
