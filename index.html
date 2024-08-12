@@ -8,34 +8,33 @@
 </head>
 <body>
   <div class="back">
+    <div>
+      <h1 class="rep"><span id="newpassword">generated in this field</span></h1>
+    </div>
     <section>
-      <div>
-        <h2><span id="newpassword">generated in this field</span></h2>
-      </div>
+      
   
       <div>
-        <h2 class="blue" id="creat">
+        <h2 class="btn" id="creat">
           generate password 
         </h2>
       </div>
       <div>
         <form>
           <div class="option">
-            <p>長さ(<span id="variable">8</span>)<input type="range" id="Range" min="8" max="16" step="1" value="8">
-            <label>数字<input type="checkbox" id="includeNum">
+            長さの設定値-><span id="variable">8</span><input type="range" id="Range" min="8" max="16" step="1" value="8">
+            <label>数字を含める<input type="checkbox" id="includeNum">
             </label>
             <label>
-            記号<input type="checkbox" id="includeMark">
+            記号を含める<input type="checkbox" id="includeMark">
             </label>
-           
-            </p>
           </div>
         </form>
       </div>
     </section>
   </div>
-  <h2>水色のボタンを押すとバーで指定した長さのパスワードが生成されます。<br>
-  数字または記号を入れたい方はボックスにチェックを入れてください。</h2>
+  <p>水色のボタンを押すとバーで指定した長さのパスワードが生成されます。<br>
+  数字または記号を入れたい方はボックスにチェックを入れてください。</p>
   <script src="js/main.js"></script>
 </body>
 </html>
