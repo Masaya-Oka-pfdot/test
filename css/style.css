@@ -6,7 +6,7 @@
 }
 .back{
   background-image:url(../background.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat-x;
   /* height:50%; */
   padding: 10%;
@@ -16,13 +16,13 @@ body{
 
 }
 section{
-  width:360px;
-  height:200px;
-  box-shadow: 0px 0px 10px rgb(85, 0, 255) ;
+  width:90%;
+  height:auto;
+  box-shadow: 0px 0px 10px rgb(87, 201, 26) ;
   margin:auto;
   padding:16px;
   border-radius: 10px;
-
+  /* background-color: aqua; */
 }
 
 h2{
@@ -34,9 +34,9 @@ h2{
 }
 .blue{
   margin-top:16px;
-  background-color: skyblue;
+  background-color: rgb(71, 42, 3);
   color:white;
-  border-color: skyblue;
+  border-color: rgb(71, 42, 3);
   cursor:pointer;
   user-select: none;
 }
@@ -45,12 +45,10 @@ h2{
 }
 .option{
   height:fit-content;
-  margin-top:16px;
-  padding:10px 0;
+
   position:relative;
   width:96%;
   top:0;
-  border: 3px dashed #777;
   border-radius:10px;
 
 }
